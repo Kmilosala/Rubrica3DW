@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "jose quintero",
+    "edad": "20",
+    "equipo": "williams",
+    "piloto": "max "
+  },
+  {
+    "id": 2,
+    "nombre": "jose quintero",
+    "edad": "22",
+    "equipo": "williams",
+    "piloto": "max "
+  },
+  {
+    "id": 3,
+    "nombre": "ezequiel vasquez",
+    "edad": "45",
+    "equipo": "Ferrari",
+    "piloto": "niki lauda"
+  }
+]

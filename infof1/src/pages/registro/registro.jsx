@@ -18,7 +18,7 @@ const RegistroVisitantes = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:3000/v1/registro", {
+      const res = await fetch("https://rubrica3dw.onrender.com/v1/registro", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

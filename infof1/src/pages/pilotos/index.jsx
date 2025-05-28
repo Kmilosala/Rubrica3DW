@@ -5,7 +5,7 @@ function Pilotos() {
   const [equipos, setEquipos] = useState([]);
 
   useEffect(() => {
-    fetch('https://rubrica3dw.onrender.com/v1/pilotos')
+    fetch('https://rubrica3dw.onrender.com/v1/piloto')
       .then(res => res.json())
       .then(data => setEquipos(data))
       .catch(err => console.error('Fetch error:', err));
